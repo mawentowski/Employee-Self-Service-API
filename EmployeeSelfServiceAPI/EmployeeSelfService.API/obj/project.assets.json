@@ -75,6 +75,35 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "EmployeeSelfService.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/EmployeeSelfService.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeSelfService.Models.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "EmployeeSelfService.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EmployeeSelfService.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeSelfService.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeSelfService.Services.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -185,10 +214,22 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "EmployeeSelfService.Models/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeSelfService.Models/EmployeeSelfService.Models.csproj",
+      "msbuildProject": "../EmployeeSelfService.Models/EmployeeSelfService.Models.csproj"
+    },
+    "EmployeeSelfService.Services/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeSelfService.Services/EmployeeSelfService.Services.csproj",
+      "msbuildProject": "../EmployeeSelfService.Services/EmployeeSelfService.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "EmployeeSelfService.Models >= 1.0.0",
+      "EmployeeSelfService.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -218,7 +259,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/EmployeeSelfService.Models.csproj": {
+              "projectPath": "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/EmployeeSelfService.Models.csproj"
+            },
+            "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/EmployeeSelfService.Services.csproj": {
+              "projectPath": "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/EmployeeSelfService.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

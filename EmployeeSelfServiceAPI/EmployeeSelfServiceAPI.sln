@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{D7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSelfService.Models", "EmployeeSelfService.Models\EmployeeSelfService.Models.csproj", "{50101036-617C-4C46-AD9D-D63B193F075E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSelfService.Services", "EmployeeSelfService.Services2\EmployeeSelfService.Services.csproj", "{AB8DB26B-D378-447F-824E-A375D4175DBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSelfService.Services", "EmployeeSelfService.Services\EmployeeSelfService.Services.csproj", "{AB8DB26B-D378-447F-824E-A375D4175DBA}"
 EndProject
 Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "EmployeeSelfService.API", "EmployeeSelfService.API\EmployeeSelfService.API.csproj", "{4A1ACDEE-E53D-4F3F-ACEB-8E661694EC6F}"
 EndProject

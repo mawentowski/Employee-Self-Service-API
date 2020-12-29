@@ -1,0 +1,16 @@
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/bin/Debug/netcoreapp3.1/EmployeeSelfService.Services.deps.json
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/bin/Debug/netcoreapp3.1/EmployeeSelfService.Services.dll
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/bin/Debug/netcoreapp3.1/EmployeeSelfService.Services.pdb
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/bin/Debug/netcoreapp3.1/EmployeeSelfService.Models.dll
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/bin/Debug/netcoreapp3.1/EmployeeSelfService.Models.pdb
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/EmployeeSelfService.Services.csprojAssemblyReference.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/EmployeeSelfService.Services.AssemblyInfoInputs.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/EmployeeSelfService.Services.AssemblyInfo.cs
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/EmployeeSelfService.Services.csproj.CoreCompileInputs.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/staticwebassets/EmployeeSelfService.Services.StaticWebAssets.Manifest.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/staticwebassets/EmployeeSelfService.Services.StaticWebAssets.xml
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/scopedcss/bundle/EmployeeSelfService.Services.styles.css
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/EmployeeSelfService.Services.RazorTargetAssemblyInfo.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/EmployeeSelfService.Services.csproj.CopyComplete
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/EmployeeSelfService.Services.dll
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/obj/Debug/netcoreapp3.1/EmployeeSelfService.Services.pdb

@@ -5,12 +5,15 @@
   </PropertyGroup>
 
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'DocuGeneratorAPI' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'EmployeeSelfServiceAPI' " />
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DocuGenerator.Models\DocuGenerator.Models.csproj">
+    <ProjectReference Include="..\EmployeeSelfService.Models\EmployeeSelfService.Models.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeSelfService.Services\EmployeeSelfService.Services.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

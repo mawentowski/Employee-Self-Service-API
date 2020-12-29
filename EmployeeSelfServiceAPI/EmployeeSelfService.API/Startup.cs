@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EmployeeSelfService.Services.Implementations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -16,6 +17,8 @@ namespace EmployeeSelfService.API
 {
     public class Startup
     {
+        public const string AllowAllCorsPolicyName = "AllowAll";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -26,11 +29,26 @@ namespace EmployeeSelfService.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<EmployeeService, EmployeeService>();
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DocuGenerator API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Employee Self Service API", Version = "v1" });
             });
             services.AddControllers();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(AllowAllCorsPolicyName,
+                    builder =>
+                    {
+                        builder
+                            .SetIsOriginAllowed(origin => true)
+                            .AllowAnyMethod()
+                            .AllowAnyHeader()
+                            .AllowCredentials();
+                    });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +65,8 @@ namespace EmployeeSelfService.API
 
             app.UseRouting();
 
+            app.UseCors(AllowAllCorsPolicyName);
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -58,8 +78,8 @@ namespace EmployeeSelfService.API
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint(
-                    env.IsDevelopment() ? "/swagger.json" : "/DocuGeneratorAPI/swagger.json",
-                    "DocuGeneratorAPI");
+                    env.IsDevelopment() ? "/swagger/v1/swagger.json" : "/EmployeeSelfServiceAPI/swagger/v1/swagger.json",
+                    "EmployeeSelfServiceAPI");
 
                 c.RoutePrefix = string.Empty; // To serve the Swagger UI at the apps root (http://localhost)
             });

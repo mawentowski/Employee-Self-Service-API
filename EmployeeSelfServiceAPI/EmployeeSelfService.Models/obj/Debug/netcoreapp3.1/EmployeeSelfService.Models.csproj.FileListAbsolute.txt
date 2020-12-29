@@ -1,0 +1,13 @@
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/EmployeeSelfService.Models.csprojAssemblyReference.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/EmployeeSelfService.Models.AssemblyInfoInputs.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/EmployeeSelfService.Models.AssemblyInfo.cs
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/EmployeeSelfService.Models.csproj.CoreCompileInputs.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/bin/Debug/netcoreapp3.1/EmployeeSelfService.Models.deps.json
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/bin/Debug/netcoreapp3.1/EmployeeSelfService.Models.dll
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/bin/Debug/netcoreapp3.1/EmployeeSelfService.Models.pdb
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/staticwebassets/EmployeeSelfService.Models.StaticWebAssets.Manifest.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/staticwebassets/EmployeeSelfService.Models.StaticWebAssets.xml
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/scopedcss/bundle/EmployeeSelfService.Models.styles.css
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/EmployeeSelfService.Models.RazorTargetAssemblyInfo.cache
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/EmployeeSelfService.Models.dll
+/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Models/obj/Debug/netcoreapp3.1/EmployeeSelfService.Models.pdb
