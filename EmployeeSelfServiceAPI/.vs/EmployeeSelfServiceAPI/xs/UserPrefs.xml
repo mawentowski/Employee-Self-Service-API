@@ -1,39 +1,35 @@
-﻿<Properties StartupConfiguration="{94EF0E43-B194-4E02-A056-18323653DB73}|DocuGeneratorAPI">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DocuGenerator.Models/Employee.cs">
+﻿<Properties StartupConfiguration="{50101036-617C-4C46-AD9D-D63B193F075E}|DocuGenerator.Models">
+  <MonoDevelop.Ide.ItemProperties.Business.EmployeeSelfService.Models PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeSelfService.API/Program.cs">
     <Files>
-      <File FileName="DocuGeneratorAPI/Controllers/EmployeeController.cs" Line="9" Column="1" />
-      <File FileName="DocuGeneratorAPI/Program.cs" Line="8" Column="36" />
-      <File FileName="DocuGeneratorAPI/Startup.cs" Line="10" Column="20" />
-      <File FileName="DocuGenerator.Models/DocuGenerator.Services/Implementations/EmployeeService.cs" Line="7" Column="6" />
-      <File FileName="DocuGenerator.Models/DocuGenerator.Services/Implementations/EntityService.cs" Line="10" Column="6" />
-      <File FileName="DocuGenerator.Models/LeaveRequest.cs" Line="1" Column="1" />
-      <File FileName="DocuGenerator.Models/Entity.cs" Line="10" Column="2" />
-      <File FileName="DocuGenerator.Models/Employee.cs" Line="1" Column="1" />
+      <File FileName="DocuGenerator.Models/DocuGenerator.Services/Implementations/EmployeeService.cs" Line="1" Column="1" />
+      <File FileName="DocuGenerator.Models/DocuGenerator.Services/Implementations/EntityService.cs" />
+      <File FileName="DocuGenerator.Models/LeaveRequest.cs" />
+      <File FileName="DocuGenerator.Models/Entity.cs" />
+      <File FileName="DocuGenerator.Models/Employee.cs" />
+      <File FileName="EmployeeSelfService.Services2/Implementations/EmployeeService.cs" />
+      <File FileName="EmployeeSelfService.Services2/Implementations/EntityService.cs" />
+      <File FileName="EmployeeSelfService.Models/Employee.cs" Line="1" Column="1" />
+      <File FileName="EmployeeSelfService.API/Startup.cs" Line="1" Column="1" />
+      <File FileName="EmployeeSelfService.API/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EmployeeSelfServiceAPI" expanded="True">
             <Node name="Business" expanded="True">
-              <Node name="EmployeeSelfService.Models" expanded="True">
-                <Node name="DocuGenerator.Services" expanded="True" />
-                <Node name="Employee.cs" selected="True" />
-              </Node>
-              <Node name="EmployeeSelfService.Services" expanded="True">
-                <Node name="Implementations" expanded="True" />
-              </Node>
+              <Node name="EmployeeSelfService.Models" expanded="True" />
+              <Node name="EmployeeSelfService.Services" expanded="True" />
             </Node>
             <Node name="EmployeeSelfService.API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.EmployeeSelfService.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Business.EmployeeSelfService.Services FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
