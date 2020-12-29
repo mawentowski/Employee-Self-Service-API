@@ -1,0 +1,39 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApi/Implementations/Entity/EntityController.cs">
+    <Files>
+      <File FileName="WebApi/Properties/PublishProfiles/Dev.pubxml" Line="1" Column="1" />
+      <File FileName="WebApi/Properties/PublishProfiles/FolderProfile.pubxml" Line="1" Column="1" />
+      <File FileName="WebApi/Properties/PublishProfiles/Sandbox.pubxml" Line="1" Column="1" />
+      <File FileName="WebApi/app.config" Line="6" Column="17" />
+      <File FileName="WebApi/appsettings.Development.json" Line="2" Column="1" />
+      <File FileName="WebApi/appsettings.json" Line="1" Column="2" />
+      <File FileName="WebApi/Program.cs" Line="6" Column="2" />
+      <File FileName="WebApi/Implementations/Entity/EntityController.cs" Line="9" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DocuGeneratorApi" expanded="True">
+            <Node name="Business" expanded="True" />
+            <Node name="Data" expanded="True" />
+            <Node name="Solution Items" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>WebApi/DocuGenerator.Api.csproj</String>
+    <String>Data/DataAccess/DocuGenerator.DataAccess.csproj</String>
+    <String>Data/DataModels/DocuGenerator.DataModels.csproj</String>
+    <String>Business/Core/DocuGenerator.Core.csproj</String>
+    <String>Business/Models/DocuGenerator.Models.csproj</String>
+    <String>Business/Services/DocuGenerator.Services.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8g6531Vl1o3fp5Sbik0sXKjPNsTIs8AvKUOcEsS4zr99cbEkvQyy5NaGRfnCmiYprre3gLVF7F2muT/02asgQQ==",
+  "success": true,
+  "projectFilePath": "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/DocuGeneratorAPI/EmployeeSelfService.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/rewento/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/rewento/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

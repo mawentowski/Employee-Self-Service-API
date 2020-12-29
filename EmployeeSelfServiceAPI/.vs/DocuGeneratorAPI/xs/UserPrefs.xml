@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{94EF0E43-B194-4E02-A056-18323653DB73}|DocuGeneratorAPI">
+  <MonoDevelop.Ide.ItemProperties.Business.DocuGenerator.Services FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DocuGenerator.Models/DocuGenerator.Services/Implementations/EmployeeService.cs">
+    <Files>
+      <File FileName="DocuGenerator.Models/Employee.cs" Line="6" Column="6" />
+      <File FileName="DocuGenerator.Models/Entity.cs" Line="13" Column="10" />
+      <File FileName="DocuGenerator.Models/ExpenseReport.cs" Line="1" Column="1" />
+      <File FileName="DocuGenerator.Models/TimeSheet.cs" Line="4" Column="35" />
+      <File FileName="DocuGenerator.Models/LeaveRequest.cs" Line="1" Column="1" />
+      <File FileName="DocuGenerator.Models/DateRange.cs" Line="1" Column="1" />
+      <File FileName="DocuGenerator.Models/DocuGenerator.Services/Contracts/IEntityService.cs" Line="5" Column="2" />
+      <File FileName="DocuGenerator.Models/DocuGenerator.Services/Implementations/EntityService.cs" Line="12" Column="48" />
+      <File FileName="DocuGeneratorAPI/Startup.cs" Line="54" Column="44" />
+      <File FileName="DocuGenerator.Models/DocuGenerator.Services/Implementations/EmployeeService.cs" Line="6" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DocuGeneratorAPI" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="DocuGenerator.Models" expanded="True" />
+              <Node name="DocuGenerator.Services" expanded="True">
+                <Node name="Contracts" expanded="True" />
+                <Node name="Implementations" expanded="True">
+                  <Node name="EmployeeService.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="DocuGenerator.API" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Business.DocuGenerator.Models FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>DocuGenerator.Models/DocuGenerator.Services/DocuGenerator.Services.mdproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DocuGenerator.API FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
