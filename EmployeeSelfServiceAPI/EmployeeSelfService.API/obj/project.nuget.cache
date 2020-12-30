@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FoISubFIRKfnQmzAnkcymCBX4XLRd/tnMhqgMDmfEtg7djxp68nHn8IQcRlTLtM4o+wrd9tQj+E6DWg0TLWlIg==",
+  "dgSpecHash": "/JVQMO+LNhUr4z6CxFg6q6hALa7ZrF0MSCEFq0Q/tck9U6GLBK+nwT21Hb2GunyC7jE40CzRLZ0HSlzTRGMMtQ==",
   "success": true,
   "projectFilePath": "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.API/EmployeeSelfService.API.csproj",
   "expectedPackageFiles": [
     "/Users/rewento/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/rewento/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/rewento/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

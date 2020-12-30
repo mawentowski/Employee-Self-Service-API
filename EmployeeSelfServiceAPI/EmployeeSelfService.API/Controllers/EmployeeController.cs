@@ -14,7 +14,6 @@ namespace EmployeeSelfService.API.Controllers
     /// <summary>
     /// Employee endpoint.
     /// </summary>
-    [ApiConventionType(typeof(DefaultApiConventions))]
     [ApiController]
     [Route("[controller]")]
     public class EmployeeController : ControllerBase
@@ -29,20 +28,47 @@ namespace EmployeeSelfService.API.Controllers
         }
 
         /// <summary>
+        /// Deletes an employee.
+        /// </summary>
+        [HttpDelete("{id}")]
+        [ProducesResponseType(200)]
+        public void Delete(int id) =>
+            _employeeService.DeleteEntity(id);
+
+        /// <summary>
         /// Gets employees.
         /// </summary>
         [HttpGet]
-        public IEnumerable<Employee> Get() =>
-            _employeeService.GetEntities();
+        [ProducesResponseType(200)]
+        public ActionResult<IEnumerable<Employee>> Get() =>
+            Ok(_employeeService.GetEntities());
 
+        /// <summary>
+        /// Finds an employee by Id.
+        /// </summary>
+        [HttpGet("{id}")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
+        public ActionResult<IEnumerable<Employee>> Find(int id) =>
+            Ok(_employeeService.GetById(id));
+
+        /// <summary>
+        /// Creates an employee.
+        /// </summary>
+        [HttpPost]
+        [ProducesResponseType(200)]
+        public void Post([FromBody] Employee employee)
+        {
+            _employeeService.AddEntity(employee);
+        }
 
         /// <summary>
         /// Updates an employee.
         /// </summary>
         [HttpPut]
-        public void Put([FromBody] Employee employee)
-        {
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        public void Put([FromBody] Employee employee) =>
             _employeeService.UpdateEntity(employee);
-        }
     }
 }

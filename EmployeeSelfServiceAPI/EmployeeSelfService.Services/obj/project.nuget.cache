@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GqYb5C0oozbDDTLKpqn3Ybop4/2WNWbfVO0X27SqHC/lkFP5ZLVrzubesZ7Kl/1OP9o8dEKqfGJUDS4LCwsNxQ==",
+  "dgSpecHash": "Zw0awVjzzElcFJS5fBiiu5yJdo7WYY70gLmDQ/KHcKusv2GoALFPQhn2t4bud3OyWyWdY71/h9/qa8Mw08cWOA==",
   "success": true,
   "projectFilePath": "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/EmployeeSelfService.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/rewento/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
