@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using EmployeeSelfService.Models;
+using EmployeeSelfService.Services.Exceptions;
 
 namespace EmployeeSelfService.Services.Implementations
 {
@@ -38,7 +39,7 @@ namespace EmployeeSelfService.Services.Implementations
             T entity = entities.Find(entity => entity.Id == id);
             if (entity == null)
             {
-                throw new ArgumentException($"Entity with id {id} not found.");
+                throw new NotFoundException($"Entity with id {id} not found.");
             }
             return entity;
         }

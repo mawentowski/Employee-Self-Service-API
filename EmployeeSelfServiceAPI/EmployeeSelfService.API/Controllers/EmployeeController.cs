@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using EmployeeSelfService.Models;
 using EmployeeSelfService.Services.Implementations;
-using System.Net;
-
 
 namespace EmployeeSelfService.API.Controllers
 {
@@ -49,6 +44,7 @@ namespace EmployeeSelfService.API.Controllers
         [HttpGet("{id}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
         public ActionResult<IEnumerable<Employee>> Find(int id) =>
             Ok(_employeeService.GetById(id));
 
@@ -56,19 +52,24 @@ namespace EmployeeSelfService.API.Controllers
         /// Creates an employee.
         /// </summary>
         [HttpPost]
-        [ProducesResponseType(200)]
-        public void Post([FromBody] Employee employee)
+        [ProducesResponseType(201)]
+        public CreatedAtActionResult Post([FromBody] Employee employee)
         {
-            _employeeService.AddEntity(employee);
+            Employee newEmployee = _employeeService.AddEntity(employee);
+            return CreatedAtAction(nameof(Find), new { id = newEmployee.Id }, newEmployee);
         }
 
         /// <summary>
         /// Updates an employee.
         /// </summary>
         [HttpPut]
-        [ProducesResponseType(201)]
+        [ProducesResponseType(200)]
         [ProducesResponseType(400)]
-        public void Put([FromBody] Employee employee) =>
+        [ProducesResponseType(404)]
+        public ActionResult Put([FromBody] Employee employee)
+        {
             _employeeService.UpdateEntity(employee);
+            return Ok();
+        }
     }
 }

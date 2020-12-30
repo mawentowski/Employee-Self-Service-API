@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using EmployeeSelfService.Services.Helpers;
+using EmployeeSelfService.Services.Exceptions;
 using EmployeeSelfService.Services.Implementations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -74,7 +74,7 @@ namespace EmployeeSelfService.API
                 app.UseHsts();
             }
 
-            app.UseMiddleware(typeof(ErrorHandlingMiddleware));
+            app.UseMiddleware(typeof(ExceptionHandlingMiddleware));
 
             app.UseStaticFiles(); // Images, Icons, Swagger Custom files
 

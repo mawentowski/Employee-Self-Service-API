@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Implementations\" />
-    <Folder Include="Helpers\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EmployeeSelfService.Models\EmployeeSelfService.Models.csproj">

@@ -5,14 +5,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace EmployeeSelfService.Services.Helpers
+namespace EmployeeSelfService.Services.Exceptions
 {
-    public class ErrorHandlingMiddleware
+    public class ExceptionHandlingMiddleware
     {
         private readonly RequestDelegate _next;
 
-        private readonly ILogger<ErrorHandlingMiddleware> _logger;
-        public ErrorHandlingMiddleware(RequestDelegate next, ILogger<ErrorHandlingMiddleware> logger)
+        private readonly ILogger<ExceptionHandlingMiddleware> _logger;
+        public ExceptionHandlingMiddleware(RequestDelegate next, ILogger<ExceptionHandlingMiddleware> logger)
         {
             _next = next;
             _logger = logger;
@@ -42,7 +42,7 @@ namespace EmployeeSelfService.Services.Helpers
                 ArgumentOutOfRangeException _ => HttpStatusCode.NotAcceptable,
                 ArgumentException _ => HttpStatusCode.BadRequest,
                 UnauthorizedAccessException _ => HttpStatusCode.Forbidden,
-                NotImplementedException _ => HttpStatusCode.NotFound,
+                NotFoundException _ => HttpStatusCode.NotFound,
                 ConflictException _ => HttpStatusCode.Conflict,
                 _ => HttpStatusCode.InternalServerError
             };
@@ -52,19 +52,11 @@ namespace EmployeeSelfService.Services.Helpers
                 message += $" {ex.InnerException.Message}";
             }
 
-
             var result = JsonConvert.SerializeObject(message);
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)code;
 
             return context.Response.WriteAsync(result);
-        }
-    }
-
-    public class ConflictException : Exception
-    {
-        public ConflictException(string message) : base(message)
-        {
         }
     }
 }
