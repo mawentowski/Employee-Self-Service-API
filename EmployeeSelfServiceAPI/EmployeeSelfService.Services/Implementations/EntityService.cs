@@ -46,6 +46,7 @@ namespace EmployeeSelfService.Services.Implementations
         public void UpdateEntity(T updatedEntity)
         {
             T currentEntity = GetById(updatedEntity.Id);
+            updatedEntity.CreateDate = currentEntity.CreateDate;
             updatedEntity.UpdateDate = DateTime.Now;
             entities[entities.IndexOf(currentEntity)] = updatedEntity;
         }

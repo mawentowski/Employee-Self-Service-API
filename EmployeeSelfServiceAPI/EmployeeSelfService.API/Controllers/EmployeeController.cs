@@ -6,9 +6,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using EmployeeSelfService.Models;
 using EmployeeSelfService.Services.Implementations;
+using System.Net;
+
 
 namespace EmployeeSelfService.API.Controllers
 {
+    /// <summary>
+    /// Employee endpoint.
+    /// </summary>
+    [ApiConventionType(typeof(DefaultApiConventions))]
     [ApiController]
     [Route("[controller]")]
     public class EmployeeController : ControllerBase
@@ -22,11 +28,21 @@ namespace EmployeeSelfService.API.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Gets employees.
+        /// </summary>
         [HttpGet]
-        public IEnumerable<Employee> Get()
-        {
-            return _employeeService.GetEntities();
+        public IEnumerable<Employee> Get() =>
+            _employeeService.GetEntities();
 
+
+        /// <summary>
+        /// Updates an employee.
+        /// </summary>
+        [HttpPut]
+        public void Put([FromBody] Employee employee)
+        {
+            _employeeService.UpdateEntity(employee);
         }
     }
 }
