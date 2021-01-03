@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "FoISubFIRKfnQmzAnkcymCBX4XLRd/tnMhqgMDmfEtg7djxp68nHn8IQcRlTLtM4o+wrd9tQj+E6DWg0TLWlIg==",
+  "dgSpecHash": "1dU6g6WFtCU76xNvRoFIrgiClDtic8vlMPCD24/w4j+XEN4lc+3+Zo7qI6cLAwSZzSNkNbXngmzxB54Ztc+uzw==",
   "success": true,
-  "projectFilePath": "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.API/EmployeeSelfService.API.csproj",
+  "projectFilePath": "/Users/mawentowski/Documents/GitDirectories/Employee-Self-Service-API/EmployeeSelfServiceAPI/EmployeeSelfService.API/EmployeeSelfService.API.csproj",
   "expectedPackageFiles": [
-    "/Users/rewento/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "/Users/rewento/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "/Users/rewento/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "/Users/mawentowski/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/mawentowski/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/mawentowski/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/mawentowski/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/mawentowski/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/mawentowski/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

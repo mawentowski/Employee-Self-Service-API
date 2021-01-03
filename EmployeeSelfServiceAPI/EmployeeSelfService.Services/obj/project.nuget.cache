@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GqYb5C0oozbDDTLKpqn3Ybop4/2WNWbfVO0X27SqHC/lkFP5ZLVrzubesZ7Kl/1OP9o8dEKqfGJUDS4LCwsNxQ==",
+  "dgSpecHash": "TgAGjm4OMLYvRGmLOXtYWZ2b/l8mX8h5jxocDWZ3AfiXKr48dD1KOmj3ilzcbz0JYPQiqTiS5qK1rWAnibcfsw==",
   "success": true,
-  "projectFilePath": "/Users/rewento/src/employee-self-service-api/EmployeeSelfServiceAPI/EmployeeSelfService.Services/EmployeeSelfService.Services.csproj",
+  "projectFilePath": "/Users/mawentowski/Documents/GitDirectories/Employee-Self-Service-API/EmployeeSelfServiceAPI/EmployeeSelfService.Services/EmployeeSelfService.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
